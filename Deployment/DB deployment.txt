@@ -1,0 +1,17 @@
+sudo apt-get install mysql
+
+start mysql
+
+use mysql;
+update user set plugin='mysql_native_password' where user='root';
+flush privileges;
+
+create ResumeParser;
+use ResumeParser;
+
+create table ResumeStorage(
+id varchar(40),
+file_content mediumtext,
+file_extn char(10),
+PRIMARY KEY (id)
+)
