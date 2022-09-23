@@ -20,7 +20,7 @@ pbr==4.2.0
 pdfminer.six==20170720
 plac==0.9.6
 preshed==1.0.1
-protobuf==3.6.1
+protobuf==3.18.3
 pycryptodome==3.6.5
 python-docx==0.8.6
 regex==2017.4.5
